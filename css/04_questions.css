@@ -48,6 +48,14 @@
 	transition: background-color 200ms;
 }
 
+.question__link:focus .question__item{
+	background-color: rgb(240, 240, 240);
+}
+
+.question__link:focus {
+	outline: none;
+}
+
 .question__item:hover {
 	background-color: rgb(240, 240, 240);
 }
