@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Museosans';
+    src: url('../fonts/museosans-500-webfont.woff2') format('woff2'),
+         url('../fonts/museosans-500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museosans';
+    src: url('../fonts/museosans-700-webfont.woff2') format('woff2'),
+         url('../fonts/museosans-700-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museosans';
+    src: url('../fonts/museosans-900-webfont.woff2') format('woff2'),
+         url('../fonts/museosans-900-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

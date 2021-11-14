@@ -1,0 +1,147 @@
+.question__title {
+	margin-bottom: 26px;
+	font-weight: 600;
+	font-size: 40px;
+	text-align: center;
+}
+
+@media (max-width:663px) {
+	.question__title {
+		font-size: 30px;
+	}
+}
+
+@media (max-width:575px) {
+	.question__title {
+		font-size: 25px;
+	}
+}
+
+.question__list {
+	display: flex;
+	/* height: 100%; */
+}
+
+.swiper {
+	padding: 10px;
+	position: relative;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.swiper-slide {
+	height: auto;
+}
+
+.question__item {
+	position: relative;
+	width: auto;
+	min-height: 128px;
+	height: calc(100% - 30px);
+	padding: 12px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 16px;
+	background-color: #fff;
+	box-shadow: 0px 0px 15px 0px #00000015;
+	cursor: pointer;
+	transition: background-color 200ms;
+}
+
+.question__item:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+.question__item:active {
+	background-color: rgb(228, 228, 228);
+}
+
+.question__itembb {
+	background-image: url(../img/bb.svg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+
+.question__item-title {
+	margin-bottom: 8px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.question__item-text {
+	color: #949494;
+}
+
+.question__item-titlebb {
+	max-width: 150px;
+}
+
+.question__item-textbb {
+	max-width: 150px;
+}
+
+.swiper-button-prev {
+	left: 4px;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	box-shadow: 0px 1px 7px 0px #0000002d;
+	background-color: white;
+	transition: background-color 200ms;
+	opacity: 0.7;
+}
+
+.swiper-button-prev:focus {
+	outline: none;
+	background-color: rgb(235, 235, 235);
+}
+
+.swiper-button-prev:hover {
+	background-color: rgb(235, 235, 235);
+}
+
+.swiper-button-prev:active {
+	background-color: rgb(202, 202, 202);
+}
+
+.swiper-button-prev::after {
+	font-size: 12px;
+	font-weight: 900;
+	color: #1A1A1A;
+}
+
+.swiper-button-next {
+	right: 4px;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	box-shadow: 0px 1px 7px 0px #0000002d;
+	background-color: white;
+	transition: background-color 200ms;
+	opacity: 0.7;
+}
+
+.swiper-button-next::after {
+	font-size: 12px;
+	font-weight: 900;
+	color: #1A1A1A;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+	opacity: 0;
+	cursor: auto;
+	pointer-events: none;
+}
+.swiper-button-next:focus {
+	outline: none;
+	background-color: rgb(235, 235, 235);
+}
+
+.swiper-button-next:hover {
+	background-color: rgb(235, 235, 235);
+}
+
+.swiper-button-next:active {
+	background-color: rgb(202, 202, 202);
+}
